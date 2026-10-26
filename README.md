@@ -1,5 +1,7 @@
 # MESSOTRON R&D – LVDT-Simulation und Auslegung
 
+> **English:** start with [docs/HANDOVER.md](docs/HANDOVER.md) (project history, status, next steps). English translations of all documents are in [docs/en/](docs/en/).
+
 Ziel ist ein **digitaler Zwilling für LVDTs**: Aus Bauform, Werkstoffen, Wickelanweisung
 und CNC-Wickelprogramm sollen Kennlinie, Linearität, Empfindlichkeit, Phasengang,
 Primärimpedanz und eine günstige Speisefrequenz vorhergesagt werden. Kalibriert und
