@@ -1,0 +1,56 @@
+{
+ "f_Hz": 5000.0,
+ "u0_V": 2.0,
+ "r_load_ohm": 200000.0,
+ "core_length_mm": 50.0,
+ "variants": {
+  "Basis Phase 1 (Automatenstahl, Edelstahlrohr)": {
+   "sens_mV_V_mm": 54.920782682431,
+   "phase_deg": -75.02337014416989,
+   "z_p0_abs_ohm": 163.61137637611347,
+   "i_p0_mA": 12.224088839655964
+  },
+  "Basis mit Kunststoffkoerper": {
+   "sens_mV_V_mm": 71.37880007738106,
+   "phase_deg": -46.992981149458515,
+   "z_p0_abs_ohm": 209.50712825150913,
+   "i_p0_mA": 9.546214568885885
+  },
+  "Gehaeuse ferritischer Edelstahl, Edelstahlrohr": {
+   "sens_mV_V_mm": 69.50519024056749,
+   "phase_deg": -71.20063594309076,
+   "z_p0_abs_ohm": 188.95411942582473,
+   "i_p0_mA": 10.584580034970415
+  },
+  "Gehaeuse austenitisch (unmagnetisch), Edelstahlrohr": {
+   "sens_mV_V_mm": 97.89809528554979,
+   "phase_deg": -70.14386297791039,
+   "z_p0_abs_ohm": 112.56192139227208,
+   "i_p0_mA": 17.76799805175775
+  },
+  "Gehaeuse ferritischer Edelstahl, Kunststoffkoerper": {
+   "sens_mV_V_mm": 92.09550048453323,
+   "phase_deg": -40.0274417843792,
+   "z_p0_abs_ohm": 257.58191242131585,
+   "i_p0_mA": 7.764520346943789
+  },
+  "  dito, Kern ohne Wirbelstroeme": {
+   "sens_mV_V_mm": 145.13034995404104,
+   "phase_deg": -21.936412073408192,
+   "z_p0_abs_ohm": 421.60560196831324,
+   "i_p0_mA": 4.743769984703179
+  },
+  "  dito, Gehaeuse ohne Wirbelstroeme": {
+   "sens_mV_V_mm": 124.06385311488647,
+   "phase_deg": -26.735674812903156,
+   "z_p0_abs_ohm": 346.95585083890387,
+   "i_p0_mA": 5.7644221740725925
+  },
+  "  dito, Kern und Gehaeuse ohne Wirbelstroeme": {
+   "sens_mV_V_mm": 199.97749839197462,
+   "phase_deg": -2.4038920784389517,
+   "z_p0_abs_ohm": 680.4719450055203,
+   "i_p0_mA": 2.939136601706298
+  }
+ }
+}

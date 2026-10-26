@@ -1,0 +1,305 @@
+{
+  "stand": "2026-10-26",
+  "quelle": "Öffentliche Website MESSOTRON (messotron.com / messotron.de): Produktseiten, Datenblätter, Betriebsanleitungen, Wissensdatenbank",
+  "methode": "Der direkte Abruf der Seiten war aus der Arbeitsumgebung gesperrt. Alle Werte stammen aus Auszügen einer Websuche über diese Seiten und PDFs. Vor einer Verwendung in der Kalibrierung gegen das Original-PDF prüfen.",
+  "sicherheit_legende": {
+    "hoch": "Wert in mehreren Auszügen gleich oder wörtlich zitiert",
+    "mittel": "ein Auszug, plausibel",
+    "niedrig": "Tabelle im Auszug verschoben oder Quellen widersprechen sich"
+  },
+  "sensoren": [
+    {
+      "typ": "DM",
+      "prinzip": "LVDT",
+      "gehaeuse_d_mm": 20,
+      "einbaulaenge_mm": 35,
+      "nennhub_mm": "16 (±8), erweitert ±10 (frequenzabhängig)",
+      "traegerfrequenz_kHz": "5",
+      "empfindlichkeit_mV_V_mm": 40,
+      "primaerimpedanz_ohm": "> 400 (Kern in Null)",
+      "werkstoffe": "Gehäuse Edelstahl; Kern aus magnetischem Edelstahl; Verlängerungsstange unmagnetisch",
+      "sonstiges": "-30…100 °C, IP68, 200 bar, Sensor ca. 50 g, Kern ohne Stange ca. 3 g",
+      "quelle": "https://www.messotron.com/products/lvdt-lvit-sensors/lvdt-sensor-dm",
+      "sicherheit": "hoch"
+    },
+    {
+      "typ": "DT",
+      "prinzip": "LVDT, vollsymmetrische Vollbrücke",
+      "nennhub_mm": "2…100 (DT 2 … DT 100, ±1 … ±50)",
+      "traegerfrequenz_kHz": "5, Option 10",
+      "linearitaet_pct_FSO": "±0,5, Option ±0,25 / ±0,1",
+      "quelle": "https://www.messotron.com/products/lvdt-lvit-sensors/lvdt-sensor-dt",
+      "sicherheit": "mittel",
+      "offen": "Gehäuse- und Kerndurchmesser, Nennausgang"
+    },
+    {
+      "typ": "DTU",
+      "prinzip": "LVDT, ultrakompakt",
+      "gehaeuse_d_mm": 5,
+      "einbaulaenge_mm": 42,
+      "nennhub_mm": "8",
+      "traegerfrequenz_kHz": "5",
+      "nennausgang_mV_V": "24 (typ.)",
+      "primaerimpedanz_ohm": "≈ 50 (Kern in Null)",
+      "speisung": "max. 5 V eff",
+      "quelle": "https://www.messotron.com/products/lvdt-lvit-sensors/lvdt-sensor-dtu",
+      "sicherheit": "mittel",
+      "widerspruch": "Ein Auszug nennt zusätzlich 16 mm Gehäuse (Variante mit externer Feder?)"
+    },
+    {
+      "typ": "DTL",
+      "prinzip": "LVDT, kurzbauender Messtaster",
+      "gehaeuse_d_mm": "12 h9",
+      "kern_d_mm": 3,
+      "nennhub_mm": "50 / 100 / 200",
+      "traegerfrequenz_kHz": "5",
+      "nennausgang_mV_V": "133 / 135 / 125 bei 5 kHz (Richtwerte, phasenunabhängig); Option kalibriert 80",
+      "speisung": "1…5 V AC",
+      "linearitaet_pct_FSO": "±0,5, Option ±0,25",
+      "quelle": "https://www.messotron.com/products/lvdt-lvit-sensors/lvdt-sensor-dtl",
+      "sicherheit": "hoch"
+    },
+    {
+      "typ": "DU",
+      "prinzip": "LVDT, Vollbrücke, Universal",
+      "gehaeuse_d_mm": 14,
+      "kern_d_mm": "2 bzw. 3 (Zeile 'Diameter d', vermutlich Kern)",
+      "nennhub_mm": "15…1000",
+      "einbaulaenge_mm": "70…1420",
+      "traegerfrequenz_kHz": "5, Option 10",
+      "nennausgang_mV_V": "ca. 80…175 bei 5 kHz; ca. 100…250 bei 10 kHz (kürzere Typen); Zuordnung zu Längen unklar",
+      "sonstiges": "-40…+80 °C (Option 120 °C), IP64, Verstärker MBI 46.31 / MBI 50.33",
+      "quelle": "https://www.messotron.com/products/lvdt-lvit-sensors/lvdt-sensor-du",
+      "sicherheit": "niedrig"
+    },
+    {
+      "typ": "DUH",
+      "prinzip": "LVDT, vollsymmetrisch, Vollbrücke, bis 40 % kürzer",
+      "gehaeuse_d_mm": "16 ±0,1",
+      "kern_d_mm": "5,6 inkl. PTFE-Beschichtung (Kern 5; Variante 3)",
+      "nennhub_mm": "±25 / ±50 / ±100 / ±150 / ±200 / ±250 (DUH 50 … DUH 500)",
+      "traegerfrequenz_kHz": "5",
+      "nennausgang_mV_V": "107 / 140 / 163 / 175 / 160 / 162 bei 5 kHz",
+      "speisung": "bis 5 V AC",
+      "quelle": "https://www.messotron.com/products/lvdt-lvit-sensors/lvdt-sensor-duh",
+      "sicherheit": "mittel",
+      "offen": "Primärimpedanz; Einbaulängen im Auszug nicht eindeutig zugeordnet"
+    },
+    {
+      "typ": "DUR",
+      "prinzip": "LVDT (Sonderausführung DU)",
+      "nennhub_mm": "±12,5 … ±500",
+      "nennausgang_mV_V": "100 (±12,5) … 175 (lange Typen) bei 5 kHz",
+      "quelle": "https://www.messotron.com/products/lvdt-lvit-sensors/lvdt-sensor-dur",
+      "sicherheit": "mittel"
+    },
+    {
+      "typ": "DLH",
+      "prinzip": "LVDT, kurzbauend",
+      "gehaeuse_d_mm": 12,
+      "kern_d_mm": "3,6 inkl. PTFE-Beschichtung",
+      "nennhub_mm": "bis 500",
+      "quelle": "https://www.messotron.com/products/lvdt-lvit-sensors/lvdt-sensor-dlh",
+      "sicherheit": "mittel"
+    },
+    {
+      "typ": "DF",
+      "prinzip": "LVDT, Montage außerhalb des Druckraums",
+      "gehaeuse_d_mm": 20,
+      "nennhub_mm": "6…130 (±3 … ±65)",
+      "traegerfrequenz_kHz": "5",
+      "quelle": "https://www.messotron.com/products/lvdt-lvit-sensors/lvdt-sensor-df",
+      "sicherheit": "mittel"
+    },
+    {
+      "typ": "DGO",
+      "prinzip": "LVDT, druckfest (Kolben)",
+      "gehaeuse_d_mm": 20,
+      "nennhub_mm": "±12,5 (DGO 25) … ±150 (DGO 300); Produktseite bis DGO 1000",
+      "traegerfrequenz_kHz": "5, Option 10",
+      "speisung": "1…5 V eff",
+      "linearitaet_pct_FSO": "±0,5, Option ±0,25",
+      "tk": "Nullpunkt ±0,04 %/10 K, Spanne ±0,1 %/10 K",
+      "sonstiges": "450 bar Betrieb / 500 bar Prüfdruck, IP65, Verstärker MBI 46.31",
+      "quelle": "https://www.messotron.de/hubfs/Datenbl%C3%A4tter/LVDT%20LIVT%20Wegaufnehmer/EN/en_DGO.pdf",
+      "sicherheit": "hoch",
+      "widerspruch": "Ein englischer Auszug nennt 16 mm Gehäuse und Kern 3 oder 5 mm (andere Variante?)"
+    },
+    {
+      "typ": "DPU",
+      "prinzip": "LVDT, druckfest (Kolben)",
+      "gehaeuse_d_mm": 18,
+      "traegerfrequenz_kHz": "5 oder 10",
+      "linearitaet_pct_FSO": "±0,5, Option ±0,25",
+      "sonstiges": "200 bar Betrieb / 300 bar Prüfdruck",
+      "quelle": "https://www.messotron.com/products/lvdt-lvit-sensors/lvdt-sensor-dpu",
+      "sicherheit": "mittel"
+    },
+    {
+      "typ": "DPH",
+      "prinzip": "LVDT, druckfest (Zylinder)",
+      "gehaeuse_d_mm": 20,
+      "nennhub_mm": "25…300",
+      "traegerfrequenz_kHz": "5, Option 10",
+      "speisung": "1…5 V eff",
+      "sonstiges": "320 bar Betrieb / 450 bar Prüfdruck",
+      "quelle": "https://www.messotron.com/products/lvdt-lvit-sensors/lvdt-sensor-dph",
+      "sicherheit": "mittel"
+    },
+    {
+      "typ": "DPL",
+      "prinzip": "LVDT, druckfest (Zylinder)",
+      "gehaeuse_d_mm": 12,
+      "nennhub_mm": "±25 … ±200",
+      "traegerfrequenz_kHz": "10, Option 5",
+      "sonstiges": "200 bar",
+      "quelle": "https://www.messotron.com/products/lvdt-lvit-sensors/lvdt-sensor-dpl",
+      "sicherheit": "mittel"
+    },
+    {
+      "typ": "DPO",
+      "prinzip": "LVDT, druckfest (Zylinder)",
+      "gehaeuse_d_mm": 20,
+      "traegerfrequenz_kHz": "5 oder 10",
+      "sonstiges": "320 bar Betrieb / 450 bar Prüfdruck",
+      "quelle": "https://www.messotron.com/products/lvdt-lvit-sensors/lvdt-sensor-dpo",
+      "sicherheit": "mittel"
+    },
+    {
+      "typ": "DPF",
+      "prinzip": "LVDT, Ventil, vollvergossene Spule",
+      "nennhub_mm": "16 (±8)",
+      "werkstoffe": "Gehäuse Edelstahl",
+      "sonstiges": "5-adriges PTFE-Kabel, 0…+80 °C, IP65; DPF 16: Gehäuse 14 mm, Einbaulänge 74 mm",
+      "quelle": "https://www.messotron.com/products/lvdt-lvit-sensors/lvdt-sensor-dpf",
+      "sicherheit": "niedrig",
+      "widerspruch": "Druckangabe 320 bar vs. < 50 bar in der Tabelle"
+    },
+    {
+      "typ": "DTC",
+      "prinzip": "LVDT, Messtaster mit Feder",
+      "gehaeuse_d_mm": 25,
+      "kern_d_mm": "3 (Stößel)",
+      "nennhub_mm": "20 / 40 / 50 / 100",
+      "quelle": "https://www.messotron.com/products/lvdt-lvit-sensors/lvdt-sensor-dtc",
+      "sicherheit": "mittel"
+    },
+    {
+      "typ": "DFI",
+      "prinzip": "LVDT mit integrierter Elektronik (Ventil)",
+      "sonstiges": "24 V DC, 4…20 mA, M14×1,5, elektr. Hub 20…30 mm, TK ±0,2 %/10 K; Gehäuse Edelstahl, Elektronik in Alu-Gehäuse",
+      "quelle": "https://www.messotron.de/hubfs/Datenbl%C3%A4tter/LVDT%20LIVT%20Wegaufnehmer/EN/en_DFI.pdf",
+      "sicherheit": "mittel",
+      "widerspruch": "Druck 320 bar (Datenblatt) vs. 450 bar (Produktseite)"
+    },
+    {
+      "typ": "DAE / DAA",
+      "prinzip": "LVDT mit integrierter Elektronik",
+      "nennhub_mm": "DAA ±12,5 … ±125",
+      "sonstiges": "24 V DC, 0…10 V, Grenzfrequenz 100 Hz, ±0,5 % (Option ±0,25 %), 0…60 °C, Gehäuse Edelstahl",
+      "quelle": "https://www.messotron.de/hubfs/Datenbl%C3%A4tter/LVDT%20LIVT%20Wegaufnehmer/EN/en_DAA.pdf",
+      "sicherheit": "mittel"
+    },
+    {
+      "typ": "WLG",
+      "prinzip": "LVIT, Halbbrücke",
+      "gehaeuse_d_mm": 12,
+      "nennhub_mm": "10…500",
+      "traegerfrequenz_kHz": "5…10",
+      "nennausgang_mV_V": 80,
+      "empfindlichkeit_mV_V_mm": "16 … 0,32 (je nach Hub)",
+      "speisung": "< 5 V eff",
+      "linearitaet_pct_FSO": "±0,25, Option ±0,1",
+      "quelle": "https://www.messotron.de/hubfs/Datenbl%C3%A4tter/LVDT%20LIVT%20Wegaufnehmer/EN/en%20WLG.pdf",
+      "sicherheit": "hoch"
+    },
+    {
+      "typ": "WLH",
+      "prinzip": "LVIT, Halbbrücke",
+      "nennhub_mm": "10…500",
+      "traegerfrequenz_kHz": "5…10",
+      "empfindlichkeit_mV_V_mm": "60 … 1,4 (je nach Hub)",
+      "speisung": "5 V eff",
+      "linearitaet_pct_FSO": "±0,5, Option ±0,25 / ±0,1",
+      "tk": "Nullpunkt ±0,02 %/10 K, Spanne ±0,05 %/10 K",
+      "quelle": "https://www.messotron.com/products/lvdt-lvit-sensors/lvdt-sensor-wlh",
+      "sicherheit": "mittel"
+    },
+    {
+      "typ": "WLU",
+      "prinzip": "LVIT, symmetrische Halbbrücke, durchgehender Kernkanal",
+      "gehaeuse_d_mm": "16 (Edelstahl)",
+      "nennhub_mm": "Messbereich bis 350",
+      "traegerfrequenz_kHz": "3",
+      "spulenimpedanz_ohm": "600 ±100 mit Kern (WLU 100 … 350)",
+      "nennausgang_mV_V": "ca. 314…340",
+      "empfindlichkeit_mV_V_mm": "1,84 … 6,3",
+      "linearitaet_pct_FSO": "±1,0 über Nennhub, ±1,5 über max. Hub",
+      "sonstiges": "-50…120 °C (kurzzeitig 150 °C), IP65; Speisung im Auszug '22 V eff' (unplausibel hoch, prüfen)",
+      "quelle": "https://www.messotron.com/products/lvdt-lvit-sensors/lvdt-sensor-wlu",
+      "sicherheit": "mittel"
+    },
+    {
+      "typ": "WLR",
+      "prinzip": "LVIT, symmetrische Halbbrücke",
+      "gehaeuse_d_mm": 12,
+      "nennhub_mm": "10…500",
+      "traegerfrequenz_kHz": "5…10",
+      "sonstiges": "-50…80 °C",
+      "quelle": "https://www.messotron.com/products/lvdt-lvit-sensors/lvit-sensor-wlr",
+      "sicherheit": "mittel"
+    },
+    {
+      "typ": "WP",
+      "prinzip": "Langweg, Mantelanker über stabförmigem Aufnehmer, Wirbelstromprinzip, Halbbrücke (zweite Spule elektronisch nachgebildet)",
+      "nennhub_mm": "60…1000",
+      "sonstiges": "Nullpunkt am inneren Hubende, 320 bar, -20…80 °C (Option 120 °C), Verstärker MBI 50.33",
+      "quelle": "https://www.messotron.de/hubfs/Datenbl%C3%A4tter/LVDT%20LIVT%20Wegaufnehmer/EN/en%20WP%20technical%20information.pdf",
+      "sicherheit": "mittel"
+    }
+  ],
+  "elektronik": [
+    {
+      "typ": "MBI 46.31",
+      "traegerfrequenz_kHz": "5 (Option 1…20)",
+      "speisung_primaer": "ca. 2 V eff Sinus bei 5 kHz, max. 12 mA eff",
+      "eingangswiderstand_sekundaer": "ca. 200 kΩ",
+      "sensor": "Eingangsimpedanz 100…1000 Ω, Nennausgang 20…600 mV/V; LVDT 4-Leiter, LVIT 3-Leiter",
+      "phase": "Kompensation mit C1/C2 und Trimmer P_Ph; Abgleich: Kern kurz vor Messbereichsende bzw. bei ca. 3/4 Nennhub, Ausgang auf Maximum",
+      "quelle": "https://www.messotron.de/hubfs/Datenbl%C3%A4tter/LVDT%20LIVT%20Wegaufnehmer/EN/en%20MBI%2046.31%20operating%20instruction.pdf",
+      "sicherheit": "hoch"
+    },
+    {
+      "typ": "MBI 46.12 / 46.13",
+      "traegerfrequenz_kHz": "5 ±5 % Sinus (Option 1…20)",
+      "speisung_primaer": "ca. 2 V eff bei 5 kHz, max. 12 mA eff",
+      "eingangswiderstand_sekundaer": "ca. 200 kΩ",
+      "sensor": "Eingangsimpedanz 100…1000 Ω, Nennausgang 130…600 mV/V (Option /V6 mit Vorverstärker für < 130 mV/V)",
+      "phase": "Trimmer P_Ph verschiebt die Auswertung der Messspannung auf der Zeitachse (phasenempfindliche Demodulation)",
+      "quelle": "https://www.messotron.de/hubfs/Datenbl%C3%A4tter/LVDT%20LIVT%20Wegaufnehmer/EN/en%20MBI%2046.13%20operating%20instructions.pdf",
+      "sicherheit": "hoch"
+    },
+    {
+      "typ": "MBI 46.32",
+      "traegerfrequenz_kHz": "5 (Option 1…20)",
+      "quelle": "https://www.messotron.de/hubfs/Datenbl%C3%A4tter/Elektronik%20-%20Messverst%C3%A4rker/MBI%2046-32%20Betriebsanleitung.pdf",
+      "sicherheit": "hoch"
+    },
+    {
+      "typ": "MBI 46.51",
+      "traegerfrequenz_kHz": "5 ±5 % Sinus (Option 10 / 20)",
+      "speisung_primaer": "ca. 2 V eff, max. 12 mA eff",
+      "sonstiges": "Linearität < 0,1 % FSO, Bandbreite 500 Hz (-3 dB) bei 5 kHz, Ausgang 0…10 V / 4…20 mA",
+      "quelle": "https://www.messotron.de/produkte/elektronik-messverstaerker/mbi-46-51",
+      "sicherheit": "mittel"
+    },
+    {
+      "typ": "MBI 46.51.39",
+      "traegerfrequenz_kHz": "5 oder 10",
+      "speisung_primaer": "typ. 1…5 V Spitze-Spitze",
+      "sonstiges": "Alu-Feldgehäuse IP66; Ausgang ±10 V (symmetrische Sensoren) bzw. 0…10 V (unsymmetrische)",
+      "quelle": "https://www.messotron.de/hubfs/Datenbl%C3%A4tter/LVDT%20LIVT%20Wegaufnehmer/EN/en%20MBI%2046.51.39%20operating%20instructions.pdf",
+      "sicherheit": "mittel"
+    }
+  ]
+}

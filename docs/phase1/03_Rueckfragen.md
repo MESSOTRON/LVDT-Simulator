@@ -2,6 +2,10 @@
 
 Stand: 24.10.2026 · gehört zu [01_Machbarkeitsanalyse.md](01_Machbarkeitsanalyse.md)
 
+> **Update 26.10.2026:** Die öffentlichen MESSOTRON-Unterlagen beantworten einen Teil der
+> Fragen. Stand je Frage: [../phase2/01_Webrecherche_messotron.md](../phase2/01_Webrecherche_messotron.md),
+> Abschnitt 6.
+
 Die Fragen sind nach Wichtigkeit sortiert. Block A entscheidet, ob und wie gut wir mit
 der vorhandenen Messdatenbank kalibrieren können. Stichworte als Antwort genügen.
 

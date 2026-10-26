@@ -14,6 +14,13 @@ rechnen (anderer Kern, Werkstoff, Frequenz, Wicklung) und neue Sensoren auslegen
 | [docs/phase1/02_Datenanforderungen.md](docs/phase1/02_Datenanforderungen.md) | Welche Daten in welcher Form gebraucht werden |
 | [docs/phase1/03_Rueckfragen.md](docs/phase1/03_Rueckfragen.md) | Offene Fragen an MESSOTRON |
 
+## Stand: Phase 2 – Daten & Import (begonnen)
+
+| Dokument | Inhalt |
+|---|---|
+| [docs/phase2/01_Webrecherche_messotron.md](docs/phase2/01_Webrecherche_messotron.md) | Öffentliche MESSOTRON-Daten: Messkette der MBI-Verstärker, Definitionen, Werkstoffe, Kennwerte; Stand der Rückfragen; Plausibilitätsprüfung der Phase |
+| [docs/phase2/messotron_web_daten.json](docs/phase2/messotron_web_daten.json) | Kennwerte von 23 Sensortypen und 5 Messverstärkern mit Quelle und Belastbarkeit |
+
 ## Proof-of-Concept-Rechenkern `lvdt_sim/`
 
 2D-axialsymmetrische, zeitharmonische Finite-Elemente-Rechnung (Flussfunktion r·A_φ)
@@ -36,6 +43,7 @@ Gegenreihenschaltung, Last).
 pip install -r requirements.txt
 python tests/test_validation.py          # Validierung gegen analytische Lösungen (~2 s)
 python examples/demo_generic_lvdt.py     # Demo inkl. Diagramme in docs/phase1/img (~10 min)
+python examples/phase2_phase_check.py    # Phasen-Plausibilität unter MBI-Bedingungen (~15 s)
 ```
 
 Die Werkstoffwerte im Prototyp sind **Annahmen**. Quantitative Aussagen über reale
